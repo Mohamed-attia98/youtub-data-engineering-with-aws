@@ -30,8 +30,8 @@ Find more about the dataset [Trending YouTube Video Statistics](https://www.kagg
 ## Project life cycle
 ![architecture](https://github.com/Mohamed-attia98/youtub-data-engineering-with-aws/assets/82019926/737d1020-a3f4-4a2f-872c-13c45198085e)
 ## files 
-- `lambda_function.py`:  file contains the stock market dataset used in the project.
-- `pyspark_code.py`:  Python script is used to create the producer, which sends data through the topic.
-- ``:  Python script is used to pull data from the topic and push it to an S3 bucket.
+- `lambda_function.py`: A Python code is implemented to convert a JSON file into the Parquet format, extract only the required portion from the file, and write the resulting data into the cleaned S3 bucket
+- `pyspark_code.py`: Python code is implemented to perform data cleaning tasks, such as dropping null values and changing data types.
+- `s3_cli_command.sh`:  A shell script is implemented to create a pipeline that transfers data from the local storage to an S3 bucket
 
 
