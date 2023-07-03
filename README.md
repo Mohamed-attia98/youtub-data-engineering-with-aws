@@ -18,9 +18,9 @@ Find more about the dataset [Trending YouTube Video Statistics](https://www.kagg
   - Query our data from the data lake
   - Put a structure over our data lake to query our data easily and in an efficient way.
 -  __AWS Lambda__: Lambda is a computing service that allows programmers to run code without creating or managing servers.
-  - Extract, Transform our data files after they land in our raw data area.
-  -  Make the ETL process automated using lambda triggers.
-  - configure it to load the data from the raw area, clean it, and move it to the cleansed data area in our data lake.
+   - Extract, Transform our data files after they land in our raw data area.
+   -  Make the ETL process automated using lambda triggers.
+   - configure it to load the data from the raw area, clean it, and move it to the cleansed data area in our data lake.
 - __QuickSight__: Serve as our BI tool to build our reports.
   - Connect to AWS Athena to load the data from our analytical storage area to build our reports.
   - Provide a secure connection, and automated reporting to enhance the decision-making process.
