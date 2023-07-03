@@ -28,5 +28,10 @@ Find more about the dataset [Trending YouTube Video Statistics](https://www.kagg
   - It allows us to define different roles for various users.
   - Facilitates data governance and access management across different layers of our AWS S3 storage.
 ## Project life cycle
+![architecture](https://github.com/Mohamed-attia98/youtub-data-engineering-with-aws/assets/82019926/737d1020-a3f4-4a2f-872c-13c45198085e)
+## files 
+- `lambda_function.py`:  file contains the stock market dataset used in the project.
+- `pyspark_code.py`:  Python script is used to create the producer, which sends data through the topic.
+- ``:  Python script is used to pull data from the topic and push it to an S3 bucket.
 
 
