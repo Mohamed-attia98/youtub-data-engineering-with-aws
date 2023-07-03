@@ -8,15 +8,15 @@ Find more about the dataset [Trending YouTube Video Statistics](https://www.kagg
 
  ## Tools and services used:
  - __Amazon S3__:  Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
-  - It is used as the staging layer for our raw data
-  - Data Lake for raw, cleansed, and analytical data files
+   - It is used as the staging layer for our raw data
+   - Data Lake for raw, cleansed, and analytical data files
  - __AWS Glue__: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics
-  - Used as the Data integration tool for our project.
-  - Discover and build our raw, cleansed, and analytical metadata.
-  - Create a Catalog for our data lake so we can easily query our data using AWS Athena.
+   - Used as the Data integration tool for our project.
+   - Discover and build our raw, cleansed, and analytical metadata.
+   - Create a Catalog for our data lake so we can easily query our data using AWS Athena.
 -  __AWS Athena__: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3.
-  - Query our data from the data lake
-  - Put a structure over our data lake to query our data easily and in an efficient way.
+   - Query our data from the data lake
+   - Put a structure over our data lake to query our data easily and in an efficient way.
 -  __AWS Lambda__: Lambda is a computing service that allows programmers to run code without creating or managing servers.
    - Extract, Transform our data files after they land in our raw data area.
    -  Make the ETL process automated using lambda triggers.
