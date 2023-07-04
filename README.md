@@ -5,6 +5,11 @@ implemented a shell script that creates a pipeline to move the data to AWS S3. S
 This Kaggle dataset contains statistics (CSV files) on popular daily YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
 
 Find more about the dataset [Trending YouTube Video Statistics](https://www.kaggle.com/datasets/datasnaek/youtube-new)
+## steps
+- __Step 1__:  Write a shell script to transfer the data from the local storage to AWS S3.
+- __step 2__: Perform transformations on the data, such as merging CSV files, converting JSON files to the Parquet format, and extracting the required subset. 
+- __step 3__:Store the cleansed data in a designated cleansed layer within an AWS S3 bucket, allowing it to be easily accessed for querying and reporting purposes. 
+- __step 4__:Utilize AWS QuickSight to gain valuable insights from the data
 
  ## Tools and services used:
  - __Amazon S3__: Amazon S3 is an object storage service that offers manufacturing scalability, data availability, security, and performance.
